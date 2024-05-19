@@ -1,7 +1,7 @@
-from tensorflow.keras.activations import relu, linear
-from tensorflow.keras.layers import Dense
+from tensorflow.keras.activations import relu, linear # type: ignore
+from tensorflow.keras.layers import Dense # type: ignore
 
-import numpy as np
+import numpy as np # type: ignore
 
 def test_tower(target):
     num_outputs = 32

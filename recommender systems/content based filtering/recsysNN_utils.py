@@ -1,10 +1,10 @@
 """ Utilities for RecSysNN assigment """
 from collections import defaultdict
 import csv
-import numpy as np
-from numpy import genfromtxt
+import numpy as np # type: ignore
+from numpy import genfromtxt # type: ignore
 import pickle as pickle # type: ignore
-import tabulate
+import tabulate # type: ignore
 
 
 def load_data():
